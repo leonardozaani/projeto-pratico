@@ -160,3 +160,43 @@ Projeto desenvolvido com o objetivo de aplicar conceitos de **desenvolvimento de
 ---
 
 ⭐ **Projeto de Sistema de Gestão de Veículos para Concessionárias**
+
+## Versionamento Semântico
+
+O Versionamento Semântico, também conhecido como SemVer (Semantic Versioning), é uma forma de organizar e identificar as versões de um software de acordo com o tipo e o impacto das alterações realizadas.
+
+O formato utilizado é:
+
+`MAJOR.MINOR.PATCH`
+
+### MAJOR
+
+O número MAJOR deve ser incrementado quando forem realizadas alterações que não são compatíveis com versões anteriores do software.
+
+Exemplo:
+
+`1.0.0` → `2.0.0`
+
+### MINOR
+
+O número MINOR deve ser incrementado quando uma nova funcionalidade for adicionada mantendo a compatibilidade com a versão anterior.
+
+Exemplo:
+
+`1.0.0` → `1.1.0`
+
+### PATCH
+
+O número PATCH deve ser incrementado quando forem realizadas correções de erros ou pequenas alterações compatíveis com a versão atual.
+
+Exemplo:
+
+`1.0.0` → `1.0.1`
+
+### Resumo
+
+
+* **MAJOR:** alterações incompatíveis com versões anteriores.
+* **MINOR:** novas funcionalidades compatíveis.
+* **PATCH:** correções de problemas e pequenos ajustes.
+
